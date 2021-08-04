@@ -1,0 +1,9 @@
+spring:
+  datasource:
+    type: com.zaxxer.hikari.HikariDataSource
+    url: jdbc:postgresql://localhost:5432/person-api
+    username: postgres
+    password: person123
+  jpa:
+    hibernate:
+      ddl-auto: update
